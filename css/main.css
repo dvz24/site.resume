@@ -86,15 +86,15 @@ section {
 }
 
 @media print {
+  .hide-on-print {
+        display: none !important;
+      }
   body {
     margin-right: 1.5cm;
     margin-top: 1.0cm;
     margin-bottom: 1.0cm;
     margin-left: 2.5cm;
   }
-  .hide-on-print {
-        display: none !important;
-      }
 }
 
 .theme-switch-wrapper {
