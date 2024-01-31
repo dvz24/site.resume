@@ -154,10 +154,9 @@ input:checked + .slider:before {
 .hide-on-print {
       display: none;
     }
-
-    @media print {
-      .hide-on-print {
-        display: none;
+@media print {
+  .hide-on-print {
+    display: none;
       }
 .slider.round {
   border-radius: 34px;
