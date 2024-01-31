@@ -155,7 +155,9 @@ input:checked + .slider:before {
 @media print {
   .hide-on-print {
     display: none;
-      }
+  }
+}
+  
 .slider.round {
   border-radius: 34px;
 }
