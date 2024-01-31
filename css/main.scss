@@ -81,6 +81,9 @@ section {
     margin-bottom: 2.0cm;
     margin-left: 3.0cm;
   }
+  .hide-on-print {
+        display: none !important;
+      }
 }
 
 .theme-switch-wrapper{
