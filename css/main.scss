@@ -74,6 +74,11 @@ section {
   }
 }
 
+@media print {
+  .hide-on-print {
+    display: none;
+  }
+}
 
 .theme-switch-wrapper{
   position: absolute;
