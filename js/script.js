@@ -17,12 +17,12 @@ function transition() {
 }
 
 function downloadPDF() {
-      const content = document.getElementById('content');
-      const pdf = new jsPDF();
-      
-      pdf.html(content, {
-        callback: function (pdf) {
-          pdf.save('example.pdf');
-        }
-      });
+  const content = document.getElementById('content');
+  const pdf = new jsPDF();
+  
+  pdf.html(content, {
+    callback: function (pdf) {
+      pdf.save('example.pdf');
     }
+  });
+}
