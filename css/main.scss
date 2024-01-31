@@ -75,13 +75,14 @@ section {
 }
 
 @media print {
-  .hide-on-print {
-    display: none !important;
-  }
-   body {
-    margin: 2.5cm;
+  body {
+    margin-right: 2.0cm;
+    margin-top: 2.0cm;
+    margin-bottom: 3.5cm;
+    margin-left: 3.0cm;
   }
 }
+
 
 .theme-switch-wrapper{
   position: absolute;
