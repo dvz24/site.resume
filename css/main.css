@@ -152,11 +152,7 @@ input:checked + .slider:before {
           transform: translateX(26px);
 }
 
-@media print {
-  .hide-on-print {
-    display: none;
-  }
-}
+
   
 .slider.round {
   border-radius: 34px;
