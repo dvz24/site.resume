@@ -15,3 +15,10 @@ function transition() {
     document.documentElement.classList.remove('transition');
   }, 250)
 }
+function downloadPDF() {
+      const content = document.getElementById('content');
+      const pdf = new jsPDF();
+      
+      pdf.html(content, {
+        callback: function (pdf) {
+          pdf.save('resume2024.pdf');
