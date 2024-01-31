@@ -151,9 +151,7 @@ input:checked + .slider:before {
   -webkit-transform: translateX(26px);
           transform: translateX(26px);
 }
-.hide-on-print {
-      display: none;
-    }
+
 @media print {
   .hide-on-print {
     display: none;
