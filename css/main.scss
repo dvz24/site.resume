@@ -76,7 +76,7 @@ section {
 
 @media print {
   .hide-on-print {
-    display: none;
+    display: none !important;
   }
 }
 
